@@ -1,0 +1,55 @@
+.banner_contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.texts {
+  width: 522px;
+}
+.texts h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.texts h2 {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 68px;
+  letter-spacing: 0.48px;
+  padding: 15px 0 20px;
+}
+.texts p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 0.48px;
+  color: #7a7a7a;
+}
+.banner_input {
+  position: relative;
+  width: 450px;
+}
+.banner_input input {
+  width: 450px;
+  padding: 22px 58px;
+  border-radius: 50px;
+  border: 0;
+}
+.banner_input .img {
+  position: absolute;
+  left: 30px;
+  top: 22px;
+  z-index: 10;
+}
+.banner_input button {
+  position: absolute;
+  right: 0;
+  padding: 22px 40px;
+  background: #3bb77e;
+  color: #fff;
+  border-radius: 50px;
+  border: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}

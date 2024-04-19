@@ -1,0 +1,33 @@
+ul {
+  display: flex;
+  align-items: center;
+  gap: 40px !important;
+}
+.header {
+  box-shadow: 0px 0px 8px 0px #33333333;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100px;
+  background: #fff;
+}
+.header_contents {
+  padding: 18px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+li:first-child img {
+  display: none !important;
+}
