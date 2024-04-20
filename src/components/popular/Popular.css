@@ -18,3 +18,8 @@
 .title li:hover {
   color: #3bb77e;
 }
+.p_cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
