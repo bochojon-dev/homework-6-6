@@ -3,6 +3,7 @@ import HeaderTop from "./components/header_top/Header_top";
 import HeaderBottom from "./components/header_bottom/Header_bottom";
 import Banner from "./components/banner/Banner";
 import Shop from "./components/shop/Shop";
+import Popular from "./components/popular/Popular";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <HeaderBottom />
       <Banner />
       <Shop />
+      <Popular />
     </div>
   );
 }

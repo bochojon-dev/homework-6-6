@@ -1,0 +1,20 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 48px;
+}
+.title h3 {
+  color: #253d4e;
+  font-size: 32px;
+  font-weight: 700;
+}
+.title li {
+  color: #253d4e;
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+.title li:hover {
+  color: #3bb77e;
+}
