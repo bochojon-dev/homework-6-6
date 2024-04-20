@@ -1,0 +1,39 @@
+.shop_cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 75px 0 56px;
+  gap: 24px;
+}
+.card {
+  width: 514px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 64px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+}
+.card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #253d4e;
+  width: 203px;
+}
+.card button {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15.6px;
+  letter-spacing: 0.5px;
+  padding: 8px 13px;
+  background: #f53e32;
+  text-align: start;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+}
