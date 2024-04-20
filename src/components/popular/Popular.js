@@ -26,7 +26,7 @@ const Popular = () => {
   const cards = data.slice(1, 11)?.map((pro) => (
     <div className="p_card">
       <button>{pro.brand}</button>
-      <img src={pro.images[0]} alt="product" />
+      <img className="image" src={pro.images[0]} alt="product" />
       <h5>{pro.title}</h5>
       <h3>{pro.description}</h3>
       <div className="rate">
@@ -45,19 +45,6 @@ const Popular = () => {
       </div>
     </div>
   ));
-  //   const getProducts = async () => {
-  //     try {
-  //       const response = await axios.get("https://dummyjson.com/products");
-  //       setItems(response?.data);
-  //       console.log(items?.data);
-  //     } catch (error) {
-  //       console.error(error);
-  //     }
-  //   };
-
-  //   useEffect(() => {
-  //     getProducts();
-  //   }, []);
 
   const product = products?.map((e, i) => <li key={i}> {e} </li>);
   return (
